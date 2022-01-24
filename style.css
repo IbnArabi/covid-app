@@ -9,12 +9,12 @@
 }
 
 .main-title{
-    color: whitesmoke;
+    color: crimson;
     text-align: center;
     font-size: 45px;
 }
 .colour{
-    color: white;
+    color: green;
 }
 
 .last-update{
@@ -28,10 +28,19 @@
 
 }
 
+.ibox{
+    background-color: green;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
 .gif-align{
     background: transparent;
     margin-left: 500px;
-    background-color: transparent;
+    background-color: white;
 }
 
 .ubox{
@@ -54,11 +63,9 @@
 
 .covid-box {
     display: inline-block;
-    background: transparent;
+    background: white;
     border-radius: 16px;
     padding: 5px;
-    margin-right: 0.5rem;
-    margin-left: 1rem;
 }
 
 .images{
@@ -76,7 +83,6 @@
 
 .ibox-update * {
     transition: .3s;
-    margin-left: 20px;
 }
 
 .ibox-update {
@@ -92,47 +98,4 @@
     color: white;
     z-index: 99;
     box-shadow: 0 4px 30px white;
-    backdrop-filter: blur(10px);
-}
-
-.vbox-update{
-    cursor: pointer;
-    width: 400px;
-    margin-left: 20px;
-    display: inline-block;
-
-}
-
-.vbox-update *{
-    transition: 0.3s;
-}
-
-.vbox-update:hover{
-    background-color: transparent;
-    transform: scale(1.1);
-    z-index: 99;
-    backdrop-filter: blur(10px);
-    outline: 1px solid black;
-    color: rgb(39, 205, 235);
-    box-shadow: 0 4px 30px black;
-    border-radius: 10px;
-
-}
-
-.line{
-    display: inline-block;
-}
-
-.fix{
-    width: 600px;
-    display: inline-block;
-}
-
-.div0, .div1, .div2{
-    display: inline-block;
-}
-
-.adbar{
-    display: inline-block;
-    height: auto;
 }
