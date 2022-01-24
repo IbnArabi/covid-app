@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+*{
+    background-color: #4b544d;
+    transition: .3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-title{
+    color: crimson;
+    text-align: center;
+    font-size: 45px;
+}
+.colour{
+    color: green;
+}
+
+.last-update{
+    background-color: #6F7F81;
+    font-size: 15px;
+}
+
+.align-now{
+    float: right;
+    background-color: #6F7F81;
+
+}
+
+.ibox{
+    background-color: green;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.gif-align{
+    background: transparent;
+    margin-left: 500px;
+    background-color: white;
+}
+
+.ubox{
+    background-color: green;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    float: center;
+    transform: translateX(210px);
+}
+
+.deaths{
+    background-color: crimson;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.covid-box {
+    display: inline-block;
+    background: white;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.images{
+    background: transparent;
+    width: auto;
+    height: 65px;
+    float: right;
+}
+
+.num{
+    font-family: 'Dosis', sans-serif;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.ibox-update * {
+    transition: .3s;
+}
+
+.ibox-update {
+    cursor: pointer;
+}
+
+.ibox-update:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    z-index: 99;
+    backdrop-filter: blur(10px);
+    outline: 1px solid black;
+    color: white;
+    z-index: 99;
+    box-shadow: 0 4px 30px white;
+}
