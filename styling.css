@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    background-color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+select {
+    background: #161616;
+    border-radius: 6px;
+    color: #D8E9A8;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #353131;
+}
+
+select:focus {
+    background: #000000;
+    cursor: initial;
+}
+
+.main-title{
+    color: black;
+}
